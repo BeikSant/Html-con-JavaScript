@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Calculadora</title>
+    <script src="js/operaciones.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <h2>Operaciones Basixas</h2>
+    <ul>
+        <li>1= Sumar</li>
+        <li>2= Restar</li>
+        <li>3= Multiplicar</li>
+        <li>4= Dividir</li>
+    </ul>
+    <form>
+        <label>Ingresar N1</label>
+        <input type="text" name="n1" id="n1"><br>
+        <label>Ingresar N2</label>
+        <input type="text" name="n2" id="n2"><br>
+        <label>Ingresar Operación</label>
+        <input type="text" name="op" id="op"><br>
+        <input type="button" onclick="realizar_operacion()" value="Relalizar operación">
+    </form>
+    <div id="resultado">
+
+    </div>
+</body>
+
+</html>
