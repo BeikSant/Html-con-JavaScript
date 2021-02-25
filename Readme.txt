@@ -1,0 +1,1 @@
+Se le debe abrir desde un servidor web
